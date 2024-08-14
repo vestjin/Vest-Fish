@@ -1,0 +1,28 @@
+name: Update README of Profile with Current Time
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'  # 每 5 分钟运行一次
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Update Time in README
+      run: |
+        CURRENT_TIME=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+        echo "Updating README with the current time: $CURRENT_TIME"
+        sed -i "/<!-- DYNAMIC_TIME -->/c\Current Time: $CURRENT_TIME" README.md
+
+    - name: Commit and Push Changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add README.md
+        git commit -m "Updated time in README"
+        git push
