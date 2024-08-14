@@ -13,7 +13,7 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v2
 
-    - name: Update Time in README
+    - name: Update README with Current Time
       run: |
         CURRENT_TIME=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
         echo "Updating README with the current time: $CURRENT_TIME"
