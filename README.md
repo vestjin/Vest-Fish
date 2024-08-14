@@ -1,5 +1,10 @@
 # Hi there 👋, I'm [VestJin]!
 
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1000&color=5EBFF1&center=true&vCenter=true&width=500&height=70&lines=Welcome+to+my+GitHub+Profile!;I'm+a+passionate+Developer!" alt="Typing SVG" />
+</p>
+
+
 Welcome to my GitHub profile! I'm a passionate developer with a love for learning new technologies and solving real-world problems. Currently, I'm a student at Hebei University of Science and Technology, majoring in Computer Science.
 
 ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=yourusername.yourusername)
@@ -28,14 +33,8 @@ Welcome to my GitHub profile! I'm a passionate developer with a love for learnin
 ![SQLite](https://img.shields.io/badge/-SQLite-003B57?logo=sqlite&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?logo=jupyter&logoColor=white)
 
-## 📈 GitHub Stats
-
-![Your Name's GitHub stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical)
 
 
-
-| <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="Anurag's github stats" /></a> | <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&theme=buefy&hide_border=true" /></a> |
-| ------------- | ------------- |
 
 
 
