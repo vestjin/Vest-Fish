@@ -1,8 +1,8 @@
-name: Update README of Profile with Current Time
+name: Update README with Current Time
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # 每 5 分钟运行一次
+    - cron: '*/15 * * * *'  # 每 15 分钟运行一次
   workflow_dispatch:  # 允许手动触发
 
 jobs:
@@ -20,9 +20,11 @@ jobs:
         sed -i "/<!-- DYNAMIC_TIME -->/c\Current Time: $CURRENT_TIME" README.md
 
     - name: Commit and Push Changes
+      env:
+        GITHUB_TOKEN: ${{ secrets.ACTIONS_PAT }}
       run: |
-        git config --local user.email "majuejin@gmail.com"
-        git config --local user.name "vestjin"
+        git config --global user.email "majuejin@gmail.com"
+        git config --global user.name "vestjin"
         git add README.md
         git commit -m "Updated time in README"
-        git push
+        git push https://$GITHUB_TOKEN@github.com/${{ github.repository }}.git HEAD:main
