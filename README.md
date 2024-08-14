@@ -7,7 +7,10 @@
 
 Welcome to my GitHub profile! I'm a passionate developer with a love for learning new technologies and solving real-world problems. Currently, I'm a student at Hebei University of Science and Technology, majoring in Computer Science.
 
-![Weather](https://wttr.in/YourCity.png?&theme=dracula&lang=en)
+### ⏰ Current Time
+
+![Current Time](https://worldtimeapi.org/api/timezone/Etc/UTC.svg)
+
 
 
 ## 🚀 About Me
@@ -36,6 +39,11 @@ Welcome to my GitHub profile! I'm a passionate developer with a love for learnin
 
 
 
+### 🧩 Code Snippet
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=36BCF7&center=true&vCenter=true&width=450&lines=def+greet(name):;return+f%22Hello%2C+%7Bname%7D!%22;print(greet(%22GitHub%22))" alt="Typing SVG" />
+</p>
 
 
 
