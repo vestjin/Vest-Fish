@@ -7,7 +7,8 @@
 
 Welcome to my GitHub profile! I'm a passionate developer with a love for learning new technologies and solving real-world problems. Currently, I'm a student at Hebei University of Science and Technology, majoring in Computer Science.
 
-![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=yourusername.yourusername)
+![Weather](https://wttr.in/YourCity.png?&theme=dracula&lang=en)
+
 
 ## 🚀 About Me
 
